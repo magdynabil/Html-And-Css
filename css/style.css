@@ -1,0 +1,450 @@
+/*start main rules*/
+body{ 
+
+   
+
+}
+.continer{width: 1170px;
+          margin: auto;
+         
+
+       }
+       .clearfix {clear: both;}
+/*end main rules*/
+/*start header*/
+.header .slider{
+    background-image: url('../magdy.jpg');
+   -webkit-background-size: cover;/*css3*/
+   -moz-background-size: cover;/*css3*/
+   -o-background-size: cover;/*css3*/
+    background-color: #EEE;/*css3*/
+    height: 600PX;
+}
+.header .slider .intro  { 
+    padding-top: 250px;
+    height: 600px;
+    text-align: center;
+    color: #fff;
+}
+.header .slider .intro h2 {
+    margin: 0 auto;
+    width: 500px;
+    font-size: 40px;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+    padding: 5px 0;
+}
+.header .slider .intro button {
+    background: none;
+    margin-top: 30px;
+    font-size: 30px;
+    color: #fff;
+    border: 2px solid #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+
+
+.header .navbar{
+    background-color:#252F31;
+    color: #fff;
+    overflow: hidden;
+    
+}
+.header .navbar h2{
+    float: left;
+ 
+}
+.header .navbar h2:first-letter{background:#4a5456; solid #fff; font-size:40px;display:block; padding: 0 5px;;margin:0 10px 0 0;border-radius:10px }
+.header .navbar h2 span{color: #63C491;}
+.header .navbar ul{
+    list-style: none;
+    padding-left: 0; 
+    overflow: hidden;
+    float: right;
+}
+.header .navbar ul li{
+    float: left;
+    padding: 10px;
+   
+}
+.header .navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+.header .navbar ul li.active a ,
+.header .navbar ul li a:hover{
+    color: #63C491;
+}
+
+/*end header*/
+/*start features*/
+.features{
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.features .feat{
+    float: left;
+    width: 33.33333%;
+    height: 150px;
+}
+.features .feat h2{color: #444;}
+.features .feat p {
+    line-height: 1.7;
+    color: #777;
+    padding: 0 20px 0 0 ;
+}
+/*end features*/
+/*start abot me*/
+.aboutme{
+    background-color: #F2F2F2;
+    overflow: hidden;
+  
+}
+.aboutme .image{
+    float:left;
+    width: 40%;
+}
+.aboutme .image img{width: 100%;}
+.aboutme .info{
+    float: right;
+    width: 60%;
+    
+}
+.aboutme .info h2{
+    margin: 15px 0 20px 40px;
+    color: #444;
+}
+.aboutme .info > p{
+    margin: 0 0 10px 40px;
+    
+}
+.aboutme .info > p:last-of-type{
+    margin: 0 0 10px 40px;
+   
+}
+.aboutme .info p{
+        line-height: 1.4;
+        color: #666;
+}
+.aboutme .info .hopies{
+    overflow: hidden;
+    margin: 0 0 0 40px;
+}
+.aboutme .info .hopies h3 {
+    color: #444;
+}
+.aboutme .info .hopies >div{
+    float: left;
+    width: 50%;
+    min-height: 100px;
+}
+/*end abot me*/
+/*start my skills*/
+.myskills{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+.myskills .skills , .myskills .progres{
+    float: left;
+    width: 50%;
+ 
+
+}
+.myskills .skills  h2{
+    margin: 15px 0 20px 40px;
+    color: #444;
+}
+.myskills .skills  p{
+    margin: 0 0 10px 40px;
+    
+}
+.myskills .skills > p:last-of-type{
+    margin: 0 0 10px 40px;
+   
+}
+.myskills .skills p{
+        line-height: 1.4;
+        color: #666;
+}
+.myskills .skills button {
+   
+   
+   
+    margin: 15px 0 20px 40px;
+}
+.myskills .progres .tech {margin-left: 50px;}
+.myskills .progres .tech h3 {
+    color: #444;
+}
+.myskills .progres .tech div {
+    background-color: #f2f2f2;
+    height: 25px;
+}
+.myskills .progres .tech div span {
+    background-color: #2DCC70;
+    
+    height: 25px;
+    display: block;
+    line-height: 25px;
+    text-align: right;
+    color: #fff;
+    font-weight : bold;
+   
+}
+
+/*end my skills*/
+/*start resume*/
+.RESUME {
+    background-color: #F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: center
+}
+.RESUME h2 {
+    color: #444;
+    font-weight: bold;
+}
+.RESUME p {
+    line-height: 1.6;
+    color: #666;
+    padding: 0 40px;
+}
+.RESUME button {
+    margin: 15px 0 0 0;
+}
+.RESUME p {
+    line-height: 1.6;
+    color: #666;
+    padding: 0 40px;
+}
+/*end resume*/
+/*start my My Education*/
+.MyEducation{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.MyEducation .main{
+    float: left;
+    margin-right: 5%;
+    width: 50%;
+
+}
+
+.MyEducation .main h2{
+    margin: 15px 0 20px 40px;
+    color: #444;
+}
+.MyEducation .main  p{
+    margin: 0 0 10px 40px;
+    
+}
+.MyEducation .main p{
+    line-height: 1.4;
+    color: #666;
+} 
+.MyEducation .main  p:last-of-type{
+    margin: 0 0 10px 40px;
+   
+}
+.MyEducation .exp{
+    float: left;
+    width: 45%;
+ 
+
+}
+.MyEducation .exp h3{
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+.MyEducation .exp span {
+    display: block;
+    margin-bottom: 10px;
+}
+.MyEducation .exp span:first-of-type{
+    color: #999;
+}
+.MyEducation .exp span:last-of-type {
+    background-color: #2DCC70;
+    color: #fff;
+    display: inline-block;
+    padding: 4px 10px;
+    font-weight: bold;
+
+}
+.MyEducation .exp hr {
+    margin: 20px 0;
+    background-color:#999;
+    height: 1px;
+    border: 0;
+}
+.MyEducation .exp p{
+    line-height: 1.6;
+    color: #666;
+}
+
+/*end my My Education*/
+/*start testimonials*/
+.testimonials {
+    background-color: #F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center
+}
+.testimonials blockquote{
+    line-height: 1.8;
+    color: #888;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+.testimonials h3 {
+    color: #444;
+}
+.testimonials  ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+.testimonials  ul li {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #2DCC70;
+    display: inline-block;
+}
+.testimonials  ul li.active,.testimonials  ul li:hover {
+    background-color: #2DCC70;
+    cursor: pointer;
+}
+/*end  testimonials*/
+/*start Portfolio*/
+.Portfolio {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+
+}
+.Portfolio h2 {
+    color: #666;
+}
+.Portfolio p {
+    color: #444;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+    .Portfolio .our-work{
+        overflow: hidden;
+    }
+    .Portfolio .our-work > div {
+        float: left;
+        width: 33.333333%;
+        margin-bottom: 10px;
+    }
+    .Portfolio .our-work > div img {
+        width: 92%;
+        margin: 10px;
+        padding: 3px;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        box-shadow: 8px 8px 10px #ccc;
+      
+        margin: 10px;
+    }
+
+
+/*end Portfolio*/
+/*start ContactMe*/
+.ContactMe {
+    background-color: #252F31;
+    overflow: hidden;
+    padding-top: 30px ;
+    padding-bottom: 50px;
+}
+.ContactMe .info {
+    width: 50%;
+    float: left;
+    margin-right: 5%
+
+}
+.ContactMe h2 {
+    color: #fff;
+    margin-left: 40px;
+    
+}
+.ContactMe p{
+    color:#6a6e71;
+    margin-left: 40px;
+    line-height: 1.7;
+}
+.ContactMe p strong{
+    color:#fff;
+}
+
+.ContactMe .form {
+    width: 45%;
+    float: left;
+
+}
+.ContactMe .form label{
+    display: block;
+    color:#6a6e71;
+    margin: 10px 0;
+}
+.ContactMe .form input[type="text"] {
+    background-color: #4B5557;
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px ;
+    width: 80%;
+    margin-bottom: 10px;
+
+}
+.ContactMe .form textarea {
+    background-color: #4B5557;
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px ;
+    width: 80%;
+    margin-bottom: 10px;
+    height: 200px;
+
+}
+.ContactMe .form input[type="submit"]{
+    background-color: #191E22;
+    color: #fff;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/*end ContactMe*/
+/*start footer*/
+.footer {
+    background-color: #000000;
+    color:#6a6e71;
+    padding: 30px 0;
+    text-align: center;
+    
+}
+/*end footer*/
+/*start FREAM WORK*/
+.MY-button {
+    background: none;
+    border: 3px solid #2DCC70;
+    color: #2DCC70;
+    font-weight: bold;
+    font-size: 30px
+   
+}
+
+/*END FREAM WORK*/
